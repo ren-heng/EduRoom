@@ -13,7 +13,7 @@ Este proyecto corresponde al Avance de Proyecto Final 1 (Semana 6) para el curso
 * style.css: Hoja de estilos para la experiencia de usuario y diseño responsivo.
 * app.js: Logica interactiva para el registro de reservas y liberacion de espacios.
 
-## Control de Versiones y Metodologia (Segun Silabo)
+## Control de Versiones y Metodologia
 El repositorio se estructuro siguiendo el cronograma de actividades de las primeras 6 semanas del curso:
 
 1. Configuracion Inicial (Semanas 1-2): Inicializacion del repositorio local, configuracion de credenciales y vinculacion con el servidor remoto en GitHub.
