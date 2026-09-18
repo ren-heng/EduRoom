@@ -1,1 +1,155 @@
 
+/* DISEÑO DE INTERFAZ - EDUROOM/
+
+/* Diseño general de la página */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #2c3e50;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+    width: 90%;
+    max-width: 550px;
+    box-sizing: border-box;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 5px;
+}
+
+/* Subtítulo */
+.subtitle {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* Formulario de reservas */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+/* Campos de texto y selección */
+input,
+select {
+    width: 100%;
+    padding: 12px;
+
+    border: 2px solid #dce4ec;
+    border-radius: 6px;
+
+    font-size: 16px;
+    outline: none;
+    background-color: #fcfcfc;
+
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+/* Efecto al seleccionar un campo */
+input:focus,
+select:focus {
+    border-color: #2980b9;
+}
+
+/* Botón principal */
+button {
+    background-color: #2980b9;
+    color: white;
+
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+
+    transition: background-color 0.2s;
+}
+
+/* Efecto al pasar el cursor */
+button:hover {
+    background-color: #2471a3;
+}
+
+/* Lista de reservas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cada reserva registrada */
+li {
+    background: #fdfefe;
+    border-left: 5px solid #2ecc71;
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Botón para liberar un aula */
+.btn-cancelar {
+    background-color: #e74c3c;
+    padding: 6px 12px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+/* Efecto del botón liberar */
+.btn-cancelar:hover {
+    background-color: #c0392b;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    li {
+        padding: 12px;
+    }
+}
