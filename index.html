@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduRoom - Reserva de Cubículos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EduRoom </h1>
+        <p class="subtitle">Sistema Universitario de Reserva de Cubículos</p>
+        
+        <div class="form-group">
+            <input type="text" id="studentName" placeholder="Nombre del estudiante líder...">
+            <select id="roomSelect">
+                <option value="Cubículo A-101">Cubículo A-101</option>
+                <option value="Cubículo B-204">Cubículo B-204</option>
+                <option value="Sala de Estudio C-3">Sala de Estudio C-3</option>
+            </select>
+            <button id="btnReservar">Reservar Espacio</button>
+        </div>
+
+        <div class="reservations-section">
+            <h2>Reservas de Hoy</h2>
+            <ul id="reservationsList">
+
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
