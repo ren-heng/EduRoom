@@ -5,9 +5,7 @@ const reservationsList = document.getElementById('reservationsList');
 
 // Función de alerta que generará el conflicto programado
 function getAlertMessage(student, room) {
-  return `EduRoom: Reserva confirmada para ${student} en el ${room}.`;
-  // DETONANTE DEL CONFLICTO: El integrante 4 cambiará esta misma línea de texto
-  // en su propia rama antes de fusionar.
+  return `¡Listo ${student}! Tu cubículo ${room} ha sido reservado con éxito.`;
 }
 
 btnReservar.addEventListener('click', () => {
